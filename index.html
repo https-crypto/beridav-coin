@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BERIDAV COIN COMPANY</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+overflow-x:hidden;
+}
+
+/* Animated Blue Water Background */
+body::before{
+content:"";
+position:fixed;
+top:0;left:0;
+width:200%;height:200%;
+background:linear-gradient(120deg,#001f4d,#0033cc,#0066ff,#00ccff);
+background-size:400% 400%;
+animation:water 15s ease infinite;
+z-index:-1;
+}
+@keyframes water{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+
+header{
+text-align:center;
+padding:40px 20px;
+}
+
+.brand{font-size:36px;font-weight:bold}
+.subtitle{font-size:22px;margin-top:5px}
+
+.logo-container{
+position:relative;
+display:inline-block;
+margin-top:20px;
+}
+.logo-container img{width:130px}
+
+/* Moving Scorpion */
+.scorpion{
+position:absolute;
+top:20px;
+left:35px;
+width:60px;
+animation:moveScorpion 6s linear infinite;
+}
+@keyframes moveScorpion{
+0%{transform:translateX(-25px)}
+50%{transform:translateX(25px)}
+100%{transform:translateX(-25px)}
+}
+
+/* Venom Drop */
+.venom{
+position:absolute;
+width:8px;height:8px;
+background:#00ffff;
+border-radius:50%;
+top:5px;left:70px;
+animation:drop 1.5s infinite;
+}
+@keyframes drop{
+0%{opacity:1;transform:translateY(0)}
+100%{opacity:0;transform:translateY(70px)}
+}
+
+.container{
+display:grid;
+grid-template-rows:auto auto auto;
+gap:30px;
+padding:30px;
+max-width:1200px;
+margin:auto;
+}
+
+.row{
+background:rgba(0,0,0,0.5);
+padding:25px;
+border-radius:12px;
+}
+
+h3{margin-bottom:15px}
+ul{list-style:none}
+ul li{margin:6px 0}
+
+.socials{text-align:center;margin-top:30px}
+.socials a{
+margin:0 10px;
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+.socials a:hover{text-decoration:underline}
+
+.whatsapp{
+position:fixed;
+bottom:20px;right:20px;
+background:#25D366;
+color:white;
+padding:14px 20px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+footer{
+text-align:center;
+padding:30px;
+font-size:14px;
+opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="brand">BERIDAV COIN COMPANY</div>
+<div class="subtitle">🚀 BERIDAV COIN</div>
+
+<div class="logo-container">
+<img src="logo.png" alt="Beridav Logo">
+<img src="scorpion.png" class="scorpion" alt="Scorpion">
+<div class="venom"></div>
+</div>
+
+<div class="socials">
+<a href="https://facebook.com/BeridavAfroboy" target="_blank">Facebook</a>
+<a href="https://instagram.com/BeridavAfroboy" target="_blank">Instagram</a>
+<a href="https://twitter.com/BeridavAfroboy" target="_blank">Twitter/X</a>
+<a href="https://youtube.com/@BeridavAfroboy" target="_blank">YouTube</a>
+</div>
+</header>
+
+<div class="container">
+
+<div class="row">
+<h3>Core Vision</h3>
+<p>Biometric-secured cryptocurrency backed by biotech infrastructure and pharmaceutical innovation.</p>
+<ul>
+<li>Fingerprint Authentication</li>
+<li>Encrypted Biometric Signature</li>
+<li>RF Secure Hardware</li>
+<li>Transparent Asset Reserves</li>
+</ul>
+</div>
+
+<div class="row">
+<h3>Biotech & Pharmaceutical Infrastructure</h3>
+<ul>
+<li>Scorpion Research Facilities</li>
+<li>Synthetic Venom Laboratory</li>
+<li>Patent-Backed Peptide Compounds</li>
+<li>Clinical Trial Development</li>
+<li>Global Regulatory Compliance</li>
+</ul>
+</div>
+
+<div class="row">
+<h3>BERIDAV Ecosystem & Investor Value</h3>
+<ul>
+<li>Blockchain Infrastructure</li>
+<li>Innovation Marketplace</li>
+<li>Asset-Backed Token Treasury</li>
+<li>Fixed Token Supply</li>
+<li>Structured Governance & Auditing</li>
+</ul>
+<p><b>BERIDAV COIN</b> integrates blockchain financing, intellectual property tokenization, and regulated biotech innovation into one global investment platform.</p>
+</div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/254740182754" target="_blank">WhatsApp Live Chat</a>
+
+<footer>
+© 2026 BERIDAV International Group
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BERIDAV COIN COMPANY | Official Whitepaper</title>
+
+<style>
+body{
+margin:0;
+font-family:Segoe UI, Arial, sans-serif;
+background:#0a0f2c;
+color:#e6ecff;
+line-height:1.6;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+background:linear-gradient(135deg,#0d1b5e,#122c91);
+}
+
+h1{font-size:38px;margin:0}
+h2{font-size:22px;margin-top:10px;color:#4cafef}
+h3{color:#00e5ff;margin-top:40px}
+section{
+max-width:1000px;
+margin:40px auto;
+padding:30px;
+background:rgba(255,255,255,0.03);
+border-radius:12px;
+}
+
+ul{margin-left:20px}
+li{margin:6px 0}
+
+.nav{
+position:fixed;
+top:0;
+right:0;
+background:#111a4d;
+padding:15px;
+border-bottom-left-radius:12px;
+}
+.nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-size:14px;
+}
+
+.footer{
+text-align:center;
+padding:40px;
+font-size:14px;
+opacity:0.6;
+}
+
+.highlight{
+color:#00e5ff;
+font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div class="nav">
+<a href="#abstract">Abstract</a>
+<a href="#architecture">Architecture</a>
+<a href="#tokenomics">Tokenomics</a>
+<a href="#governance">Governance</a>
+<a href="#funding">Funding</a>
+</div>
+
+<header>
+<h1>BERIDAV COIN COMPANY</h1>
+<h2>BITCOIN ELECTRIC RADIOFREQUENCY INTERNATIONAL DEVELOPED ADVANCED VALUABLES</h2>
+<p>Enterprise-Grade Blockchain Infrastructure for Biotech Innovation Funding</p>
+</header>
+
+<section id="abstract">
+<h3>1. Abstract</h3>
+<p>
+BERIDAV Coin is a multi-chain decentralized finance infrastructure integrating tokenized capital markets,
+NFT-based intellectual property issuance, and DAO-governed biotech research allocation.
+</p>
+<p>
+The system operates across 
+<span class="highlight">Ethereum</span>, 
+<span class="highlight">Polygon</span>, and 
+<span class="highlight">BNB Smart Chain</span>.
+</p>
+</section>
+
+<section id="architecture">
+<h3>2. Full Smart Contract Architecture</h3>
+
+<h4>2.1 BERIDAV Token (ERC-20)</h4>
+<ul>
+<li>Fixed Max Supply</li>
+<li>ERC-2612 Permit (Gasless Approvals)</li>
+<li>UUPS Upgradeable Proxy</li>
+<li>DAO-Controlled Minting</li>
+<li>Burn Mechanism</li>
+</ul>
+
+<h4>2.2 Staking & Auto-Compound Vault</h4>
+<ul>
+<li>Deposit / Withdraw</li>
+<li>Yield Harvesting</li>
+<li>Auto-Compound Executor</li>
+<li>Emergency Pause</li>
+<li>Reentrancy Protection</li>
+</ul>
+
+<h4>2.3 NFT Innovation Marketplace</h4>
+<ul>
+<li>ERC-721 + ERC-2981 Royalties</li>
+<li>Dynamic Listing & Pricing</li>
+<li>On-Chain Settlement</li>
+<li>Marketplace Fee 2–5%</li>
+</ul>
+
+<h4>2.4 Governance DAO</h4>
+<ul>
+<li>Proposal Threshold</li>
+<li>Token Snapshot Voting</li>
+<li>Quorum Requirement</li>
+<li>Time-Locked Execution</li>
+</ul>
+
+<h4>2.5 Treasury Contract</h4>
+<ul>
+<li>Multi-Sig Controlled</li>
+<li>Research Grant Allocation</li>
+<li>Ecosystem Incentives</li>
+<li>Buyback Logic</li>
+</ul>
+
+</section>
+
+<section id="tokenomics">
+<h3>3. Tokenomics Model</h3>
+<ul>
+<li>30% Ecosystem Incentives</li>
+<li>20% Treasury Reserve</li>
+<li>15% Team (36 Month Vesting)</li>
+<li>15% Private Sale</li>
+<li>10% Public Sale</li>
+<li>10% Strategic Partnerships</li>
+</ul>
+<p>All vesting executed on-chain for transparency.</p>
+</section>
+
+<section id="governance">
+<h3>4. Governance Model</h3>
+<p>
+Token holders participate in treasury allocation, emissions adjustment, and strategic expansion.
+</p>
+<ul>
+<li>Proposal → Vote → Timelock → Execute</li>
+<li>Quorum-Based Security</li>
+<li>Snapshot Block Voting</li>
+<li>Multi-Sig Treasury Execution</li>
+</ul>
+</section>
+
+<section>
+<h3>5. Security Framework</h3>
+<ul>
+<li>Independent Smart Contract Audits</li>
+<li>Bug Bounty Program</li>
+<li>Multi-Sig Treasury</li>
+<li>Upgrade Delay Mechanism</li>
+<li>Rate-Limited Withdrawals</li>
+</ul>
+</section>
+
+<section>
+<h3>6. Investor Pitch Deck Structure</h3>
+<ul>
+<li>Vision</li>
+<li>Problem</li>
+<li>Solution</li>
+<li>Technology Stack</li>
+<li>Market Opportunity</li>
+<li>Tokenomics</li>
+<li>Revenue Model</li>
+<li>Roadmap</li>
+<li>Compliance Strategy</li>
+<li>Funding Ask</li>
+</ul>
+</section>
+
+<section id="funding">
+<h3>7. Phased Funding Strategy</h3>
+
+<h4>Phase 0 – Foundation</h4>
+<p>Legal setup, smart contract development, MVP dashboard.</p>
+
+<h4>Phase 1 – Seed Round</h4>
+<p>$250k–$1M to complete audits and marketplace beta launch.</p>
+
+<h4>Phase 2 – Private Sale</h4>
+<p>$2M–$5M for ecosystem expansion and partnerships.</p>
+
+<h4>Phase 3 – Institutional Expansion</h4>
+<p>Regulated expansion after multi-year revenue validation.</p>
+
+</section>
+
+<section>
+<h3>8. Risk Disclosure</h3>
+<ul>
+<li>Regulatory Risk</li>
+<li>Smart Contract Risk</li>
+<li>Market Volatility</li>
+<li>Biotech Execution Risk</li>
+<li>Governance Attack Risk</li>
+</ul>
+</section>
+
+<section>
+<h3>9. Conclusion</h3>
+<p>
+BERIDAV Coin aims to build a transparent blockchain-based capital coordination system
+for innovation funding, combining DeFi infrastructure with structured governance.
+</p>
+</section>
+
+<div class="footer">
+© 2026 BERIDAV COIN COMPANY | Official Technical Whitepaper
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ULTRA PHASE - BERIDAV COIN COMPANY</title>
+<style>
+body{margin:0;font-family:sans-serif;background:#111;color:#eee;}
+h1,h2,h3{text-align:center;margin:2px;}
+#dashboard{display:flex;flex-wrap:wrap;justify-content:center;padding:10px;}
+.node-card{border:1px solid #444;border-radius:8px;margin:5px;padding:15px;width:220px;background:#222;cursor:pointer;transition:0.3s;}
+#tooltip{position:absolute;z-index:1000;background:#333;color:#fff;padding:6px;border-radius:6px;opacity:0;pointer-events:none;transition:0.2s;}
+#charts3d{width:100%;height:500px;margin-top:20px;}
+button{margin:5px;padding:6px 10px;border:none;border-radius:6px;cursor:pointer;}
+.social-links{display:flex;justify-content:center;margin:10px;}
+.social-links a{margin:0 8px;color:#0af;text-decoration:none;font-weight:bold;}
+</style>
+</head>
+<body>
+<h1>BERIDAV COIN COMPANY</h1>
+<h2>BITCOIN ELECTRIC RADIOFREQUENCY INTERNATIONAL DEVELOPED ADVANCED VALUABLES</h2>
+<h3>BACKED UP BY SCORPION VENOM PRICE FOR ANTICANCER DRUGS</h3>
+
+<div class="social-links">
+  <a href="https://wa.me/254740182754" target="_blank">WhatsApp</a>
+  <a href="https://twitter.com/BeridavAfroboy" target="_blank">Twitter</a>
+  <a href="https://linkedin.com/in/BeridavAfroboy" target="_blank">LinkedIn</a>
+</div>
+
+<div id="dashboard">
+  <div class="node-card" id="node-biometric">Biometric Login</div>
+  <div class="node-card" id="node-dashboard">Multi-Chain Dashboard</div>
+  <div class="node-card" id="node-compound">Auto-Compound</div>
+  <div class="node-card" id="node-nft">NFT Marketplace</div>
+  <div class="node-card" id="node-gov">Governance</div>
+  <div class="node-card" id="node-invest">Invest Shares</div>
+</div>
+
+<div id="charts3d"></div>
+<div id="tooltip"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<script>
+// ====== MULTI-CHAIN PROVIDERS ======
+const chains = {
+  ethereum: new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/YOUR_INFURA_KEY"),
+  bsc: new ethers.providers.JsonRpcProvider("https://bsc-dataseed.binance.org/"),
+  polygon: new ethers.providers.JsonRpcProvider("https://polygon-rpc.com/")
+};
+const wallet = new ethers.Wallet("YOUR_PRIVATE_KEY");
+
+// ====== CONTRACTS ======
+const contracts = {ethereum:{},bsc:{},polygon:{}};
+const ABIs = {NFT:[],COMPOUND:[],GOV:[],INVEST:[]};
+const ADDRS = {ethereum:{NFT:'',COMPOUND:'',GOV:'',INVEST:''},bsc:{},polygon:{}};
+for(const ch in chains){
+  contracts[ch] = {
+    NFT:new ethers.Contract(ADDRS[ch].NFT, ABIs.NFT, wallet.connect(chains[ch])),
+    COMPOUND:new ethers.Contract(ADDRS[ch].COMPOUND, ABIs.COMPOUND, wallet.connect(chains[ch])),
+    GOV:new ethers.Contract(ADDRS[ch].GOV, ABIs.GOV, wallet.connect(chains[ch])),
+    INVEST:new ethers.Contract(ADDRS[ch].INVEST, ABIs.INVEST, wallet.connect(chains[ch]))
+  };
+}
+
+// ====== AI VOICE ======
+function narrate(text){
+  if(!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='en-US'; u.rate=1; u.pitch=1;
+  window.speechSynthesis.speak(u);
+}
+
+// ====== TOOLTIP + NODE ACTIONS ======
+const demoNodes=document.querySelectorAll('.node-card');
+const tooltip=document.getElementById('tooltip');
+const demoSteps=[
+  {node:0,text:"Biometric login verified.",action:()=>alert("Fingerprint verified")},
+  {node:1,text:"Dashboard shows live multi-chain yields, NFT history, governance votes.",action:()=>{}},
+  {node:2,text:"Auto-compounding running across all chains.",action:async()=>{for(const ch in contracts) await contracts[ch].COMPOUND.compound();}},
+  {node:3,text:"NFT marketplace active, multi-chain trading.",action:async()=>{for(const ch in contracts) await contracts[ch].NFT.fetchNFTs();}},
+  {node:4,text:"Governance votes cast live.",action:async()=>{for(const ch in contracts) await contracts[ch].GOV.fetchProposals();}},
+  {node:5,text:"Investor shares allocated automatically with payments.",action:async()=>{for(const ch in contracts) await contracts[ch].INVEST.allocateShares(1);}}
+];
+demoNodes.forEach((node,i)=>{
+  node.addEventListener('mouseenter',async ()=>{
+    tooltip.style.left=node.getBoundingClientRect().right+10+'px';
+    tooltip.style.top=node.getBoundingClientRect().top+window.scrollY+'px';
+    tooltip.innerHTML=demoSteps[i].text;
+    tooltip.style.opacity=1;
+    narrate(demoSteps[i].text);
+    if(demoSteps[i].action) await demoSteps[i].action();
+  });
+  node.addEventListener('mouseleave',()=>{tooltip.style.opacity=0;});
+});
+
+// ====== 3D DASHBOARD ======
+const scene=new THREE.Scene();
+const camera=new THREE.PerspectiveCamera(45,window.innerWidth/window.innerHeight,0.1,1000);
+const renderer=new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(window.innerWidth,500);
+document.getElementById('charts3d').appendChild(renderer.domElement);
+camera.position.set(30,30,50); camera.lookAt(0,0,0);
+scene.add(new THREE.DirectionalLight(0xffffff,1));
+
+// ====== 3D CANDLESTICKS + NFT Heatmaps + Yield Curves + Governance Graphs ======
+function createCandle(x,o,c,h,l,color){const body=new THREE.Mesh(new THREE.BoxGeometry(1,Math.abs(o-c),1), new THREE.MeshPhongMaterial({color}));body.position.set(x,(o+c)/2,0);const wick=new THREE.Mesh(new THREE.BoxGeometry(0.2,h-l,0.2), new THREE.MeshPhongMaterial({color:0xffffff}));wick.position.set(x,(h+l)/2,0);scene.add(body);scene.add(wick);}
+function createHeatmap(x,y,value){const cube=new THREE.Mesh(new THREE.BoxGeometry(1,1,1),new THREE.MeshPhongMaterial({color:new THREE.Color(value,value,0)}));cube.position.set(x,y,0);scene.add(cube);}
+function createCurve(points,color){const material=new THREE.LineBasicMaterial({color});const geometry=new THREE.BufferGeometry().setFromPoints(points.map(p=>new THREE.Vector3(p[0],p[1],p[2]||0)));const line=new THREE.Line(geometry,material);scene.add(line);}
+
+// ====== Live Data Simulation ======
+async function updateData(){
+  scene.clear();
+  for(let i=0;i<15;i++){
+    const o=Math.random()*10+10, c=Math.random()*10+10, h=Math.max(o,c)+Math.random()*5, l=Math.min(o,c)-Math.random()*5;
+    createCandle(i,o,c,h,l,c>=o?0x00ff00:0xff0000);
+    createHeatmap(i,i,Math.random());
+  }
+  const curvePoints=[];for(let i=0;i<20;i++)curvePoints.push([i,Math.random()*15,0]);createCurve(curvePoints,0x00ffff);
+  requestAnimationFrame(updateData);
+}
+updateData();
+
+function animate(){requestAnimationFrame(animate);scene.rotation.y+=0.001;renderer.render(scene,camera);}
+animate();
+</script>
+</body>
+</html>
